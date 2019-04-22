@@ -1,0 +1,90 @@
+.container-form h3 {
+	font-size: 34px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.container-form p {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+.container-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+	flex-direction: column;
+}
+
+.birth {
+	display: flex;
+	justify-content: space-between;
+}
+
+.birth div {
+	border: 1px solid #76cdff;
+	box-shadow: 0 0 5px #a7c9ff;
+	width: 101px;
+	margin-bottom: 20px;
+}
+
+div.registration-bg h3 {
+	margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+select.form-control {
+	height: 55px;
+	background: #0d1c26;
+	border-radius: 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #3f5765;
+	font-size: 14px;
+}
+
+::placeholder {
+	color: #466577 !important;
+}
+
+
+input.form-control,
+select.form-control {
+	color: white;
+}
+
+.registration-form {
+	border: 1px solid #76cdff;
+	box-shadow: 0 0 5px #a7c9ff;
+	width: 310px;
+	margin-bottom: 20px;
+}
+
+select.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+	background: #0d1c26;
+	color: white;
+}
+
+select.form-control {
+	cursor: pointer;
+}
+
+.agreements {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.agreements label {
+	color: white;
+	font-size: 12px;
+	margin-left: 4px;
+}
